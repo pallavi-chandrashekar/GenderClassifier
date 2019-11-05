@@ -1,0 +1,6 @@
+Description 
+
+1. collect.py: Collects twitter data using TwitterAPI calls. I am collecting tweets on GOT8, storing data in tweets.txt.
+2. cluster.py: Here i am getting clusters using breadth-first search. I am getting the friends list of tweets collected in collect.py and get the shortest paths between them. I am using methods from a1.py. I am using partition_girvan_newman,approximate_betweenness,bottom_up,bfs,readGraph from a1.py
+3. classify.py:
+4. summarize.py: Here i am displaying all the data i have collected from collect.py, cluster.py
